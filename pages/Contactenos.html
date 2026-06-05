@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mochi | Contacto</title>
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+
+      <a href="../index.html" class="logo">
+        <img class="logo-icon" src="../assets/logo mochi.png"/>
+        <span>Mochi</span>
+      </a>
+
+      <button class="menu-btn" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav">
+        <a href="../index.html" class="nav-link">Inicio</a>
+        <a href="./portafolio.html" class="nav-link">Proyectos</a>
+        <a href="./Sobre_mi.html" class="nav-link">Sobre mí</a>
+        <a href="./Contactenos.html" class="nav-link active">Contacto</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <section class="contact-page">
+      <div class="container">
+        <h1 class="section-title big-title">Contactame</h1>
+
+        <div class="contact-card">
+
+          <div class="contact-info">
+            <h2>Hablemos</h2>
+
+            <p>
+              Estoy siempre abierta a nuevos retos, proyectos y colaboraciones.
+              Puedes contactarme por correo, redes sociales o mediante el
+              formulario de contacto.
+            </p>
+
+            <ul class="contact-list">
+              <li>
+                <span>☎</span>
+                <a href="tel:+573218005378">+57 321 800 5378</a>
+              </li>
+
+              <li>
+                <span>✉</span>
+                <a href="mailto:svalentina770@gmail.com">svalentina770@gmail.com</a>
+              </li>
+
+              <li>
+                <span>◎</span>
+                <a href="#">@mochi3D</a>
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <h2>Envíame un mensaje</h2>
+
+            <input type="text" id="name" placeholder="Nombre" required>
+            <input type="email" id="email" placeholder="Email address" required>
+            <input type="text" id="subject" placeholder="Subject" required>
+            <textarea id="message" placeholder="Your message" required></textarea>
+
+            <button type="submit" class="btn">Enviar mensaje</button>
+
+            <p class="form-status" id="formStatus"></p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a href="../index.html" class="logo footer-logo">
+        <img class="logo-icon" src="../assets/logo mochi.png" />
+        <span>Mochi</span>
+      </a>
+
+      <nav class="footer-nav">
+        <a href="../index.html">Inicio</a>
+        <a href="./portafolio.html">Proyectos</a>
+        <a href="./Sobre_mi.html">Sobre mí</a>
+        <a href="./Contactenos.html">Contacto</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+
+</html>
